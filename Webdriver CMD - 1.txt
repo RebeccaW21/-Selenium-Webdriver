@@ -1,0 +1,158 @@
+Microsoft Windows [Version 10.0.19041.630]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\Siao Lung>"D:\SL\Others\Siao Lung's Courses\! Creating Websites\! Selenium Webdriver\! ! Youtube Viewer.pyw"
+
+C:\Users\Siao Lung>"D:\SL\Others\Siao Lung's Courses\! Creating Websites\! Selenium Webdriver\! ! Youtube Viewer.pyw"
+
+C:\Users\Siao Lung>python3
+
+C:\Users\Siao Lung>python
+Python 3.7.3 (default, Apr 24 2019, 15:29:51) [MSC v.1915 64 bit (AMD64)] :: Anaconda, Inc. on win32
+
+Warning:
+This Python interpreter is in a conda environment, but the environment has
+not been activated.  Libraries may fail to load.  To activate this environment
+please see https://conda.io/activation
+
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+
+C:\Users\Siao Lung>
+C:\Users\Siao Lung>python "D:\SL\Others\Siao Lung's Courses\! Creating Websites\! Selenium Webdriver\! ! Youtube Viewer.pyw"
+D:\SL\Others\Siao Lung's Courses\! Creating Websites\! Selenium Webdriver\! ! Youtube Viewer.pyw:136: DeprecationWarning: use options instead of chrome_options
+  ytviewer = webdriver.Chrome(executable_path=chromedriver, service_args=["hide_console"], chrome_options=my_own_chrome_options)
+Traceback (most recent call last):
+  File "D:\SL\Others\Siao Lung's Courses\! Creating Websites\! Selenium Webdriver\! ! Youtube Viewer.pyw", line 120, in <module>
+    try: ytviewer.current_url
+NameError: name 'ytviewer' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SL\Others\Siao Lung's Courses\! Creating Websites\! Selenium Webdriver\! ! Youtube Viewer.pyw", line 55, in commoncustomization
+    try: ytviewer.execute_script('document.querySelector(`video.video-stream.html5-main-video`).outerHTML=``'); break
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 636, in execute_script
+    'args': converted_args})['value']
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot set property 'outerHTML' of null
+  (Session info: headless chrome=87.0.4280.66)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SL\Others\Siao Lung's Courses\! Creating Websites\! Selenium Webdriver\! ! Youtube Viewer.pyw", line 158, in <module>
+    commoncustomization()
+  File "D:\SL\Others\Siao Lung's Courses\! Creating Websites\! Selenium Webdriver\! ! Youtube Viewer.pyw", line 56, in commoncustomization
+    except (selenium.common.exceptions.JavascriptException, selenium.common.exceptions.StaleElementReferenceException): time.sleep(timewait)
+KeyboardInterrupt
+
+C:\Users\Siao Lung>^Z
+C:\Users\Siao Lung>taskkill /f /im chromedriver.exe
+SUCCESS: The process "chromedriver.exe" with PID 1888 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 20448 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 2700 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 17644 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 16760 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 8024 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 22460 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 16140 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 16272 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 21136 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 11808 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 14308 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 19008 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 17532 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 13936 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 18096 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 2088 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 20432 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 15100 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 17280 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 22316 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 22816 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 14228 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 22636 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 1580 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 22588 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 19496 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 10956 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 11136 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 21984 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 8996 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 9572 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 15428 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 24636 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 11572 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 14920 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 6044 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 23580 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 20520 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 24096 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 23136 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 19164 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 21644 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 8036 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 24844 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 10824 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 12444 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 11132 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 14984 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 11776 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 3772 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 25536 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 25224 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 13996 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 18936 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 18900 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 29996 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 18720 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 29112 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 29800 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 34852 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 36848 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 35424 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 25048 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 28992 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 33620 has been terminated.
+SUCCESS: The process "chromedriver.exe" with PID 31988 has been terminated.
+
+C:\Users\Siao Lung>python "D:\SL\Others\Siao Lung's Courses\! Creating Websites\! Selenium Webdriver\! ! Youtube Viewer.pyw"
+D:\SL\Others\Siao Lung's Courses\! Creating Websites\! Selenium Webdriver\! ! Youtube Viewer.pyw:136: DeprecationWarning: use options instead of chrome_options
+  ytviewer = webdriver.Chrome(executable_path=chromedriver, service_args=["hide_console"], chrome_options=my_own_chrome_options)
+Traceback (most recent call last):
+  File "D:\SL\Others\Siao Lung's Courses\! Creating Websites\! Selenium Webdriver\! ! Youtube Viewer.pyw", line 120, in <module>
+    try: ytviewer.current_url
+NameError: name 'ytviewer' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SL\Others\Siao Lung's Courses\! Creating Websites\! Selenium Webdriver\! ! Youtube Viewer.pyw", line 55, in commoncustomization
+    try: ytviewer.execute_script('document.querySelector(`video.video-stream.html5-main-video`).outerHTML=``'); break
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 636, in execute_script
+    'args': converted_args})['value']
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot set property 'outerHTML' of null
+  (Session info: headless chrome=87.0.4280.66)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SL\Others\Siao Lung's Courses\! Creating Websites\! Selenium Webdriver\! ! Youtube Viewer.pyw", line 158, in <module>
+    commoncustomization()
+  File "D:\SL\Others\Siao Lung's Courses\! Creating Websites\! Selenium Webdriver\! ! Youtube Viewer.pyw", line 56, in commoncustomization
+    except (selenium.common.exceptions.JavascriptException, selenium.common.exceptions.StaleElementReferenceException): time.sleep(timewait)
+KeyboardInterrupt
+
+C:\Users\Siao Lung>D:\SL\Others\Siao Lung's Courses\! Creating Websites\! Selenium Webdriver\! ! Youtube Viewer.pyw^Z
+
+C:\Users\Siao Lung>
